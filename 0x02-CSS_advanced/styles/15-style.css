@@ -9,6 +9,13 @@
  */
 
  html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+ html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
@@ -350,12 +357,6 @@
 
 /*** my actual style **/
 
-html {
-    box-sizing: border-box;
-  }
-*, *:before, *:after {
-    box-sizing: inherit;
-  }
 
 html {
     scroll-behavior: smooth;
