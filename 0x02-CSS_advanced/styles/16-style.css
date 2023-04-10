@@ -1,4 +1,4 @@
-*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
    ========================================================================== */
@@ -384,7 +384,7 @@ html {
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color: var(--color-black);
+    --section-title-color: var(--color-black); 
 }
 
 body {
@@ -425,9 +425,6 @@ a:active{
     color: var(--color-primary);
 }
 
-.section-header{
-    text-align: var(--section-header-align);
-}
 
 .section-title{
     font-family: var(--font-family-title);
@@ -449,3 +446,4 @@ a:active{
     margin-left: auto;
     margin-right: auto;
 }
+
