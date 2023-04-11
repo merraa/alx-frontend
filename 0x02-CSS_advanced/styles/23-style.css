@@ -566,8 +566,6 @@ ul.row{
 
 .social-link{
     display: block;
+    color: var(--text-color);
 }
 
-.social-link svg{
-    color: var(--text-color); 
-}
