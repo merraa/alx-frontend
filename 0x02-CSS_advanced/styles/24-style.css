@@ -532,11 +532,11 @@ ul.row{
 
 }
 
-.card-services > .card-title{
+.card-services  .card-title{
     margin: 0;
 }
 
-.card-services > .card-title > a{
+.card-services  .card-title  a{
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
